@@ -1,6 +1,7 @@
 class Outlet {
-  constructor(menu) {
-    this.menu = menu;
+  constructor(owner,menu) {
+    this.owner = owner;
+    this.menu = menu
   }
 }
 
